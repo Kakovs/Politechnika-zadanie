@@ -1,0 +1,7 @@
+task.extract_property:
+  path: '/module/extract-property'
+  defaults:
+    _title: 'Extract property from API'
+    _controller: '\Drupal\task\Controller\TaskController::jsPage'
+  requirements:
+    _permission: 'access content'
